@@ -2,4 +2,4 @@ from django.http import HttpResponse
 
 
 def description(request):
-    return HttpResponse()
+    return HttpResponse('Описание проекта')
